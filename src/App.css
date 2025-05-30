@@ -1,0 +1,133 @@
+@media (max-width: 1224px) {
+  .images-section div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+  }
+  .images-section div img {
+    width: 80%;
+    height: 80vh;
+  }
+  .about-us-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .about-us-section div {
+    width: 45%;
+    margin: 70px 0;
+  }
+  .about-us-description h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 834px) {
+  .navlinks-div {
+    display: none;
+  }
+  .scroll-bar-icon {
+    display: block;
+    color: white;
+  }
+  .images-section {
+    margin-bottom: -70px;
+  }
+  .images-section div {
+    flex-direction: column;
+    width: 90%;
+  }
+  .images-section div img {
+    width: 80%;
+  }
+  .heading-description {
+    margin-bottom: 50px;
+  }
+  .quote-section {
+    height: 85vh;
+  }
+  .quote-section h2 {
+    font-size: 25px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .about-us-section div {
+    width: 100%;
+    margin: 70px 20px;
+    height: 13vh;
+  }
+  .about-us-section div img {
+    display: none;
+  }
+  .about-us-description h1 {
+    font-size: 30px;
+  }
+  .footer-section div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .navlink-footer {
+    flex-direction: column;
+  }
+  .footer-section div img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+  }
+  .footer-section div p {
+    margin-top: -90px;
+  }
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    height: 70vh;
+  }
+  .hero-section h1 {
+    font-size: 80px;
+  }
+  .hero-section p {
+    width: 50%;
+  }
+  .images-section div img {
+    height: 50vh;
+  }
+  .quote-section {
+    height: 100%;
+    padding-bottom: 10px;
+  }
+  .quote-section h2 {
+    font-size: 22px;
+    max-width: 95%;
+    font-weight: lighter;
+    line-height: 35px;
+  }
+  .about-us-section {
+    padding-bottom: 60px;
+  }
+  .about-us-section div img {
+    display: none;
+  }
+  .about-us-section div {
+    width: 100%;
+    margin: 60px 30px;
+  }
+  .about-us-description h1 {
+    font-size: 30px;
+  }
+  .question-section {
+    height: 65vh;
+    margin-top: 14px;
+  }
+  .question-div p {
+    max-width: 80%;
+  }
+}
