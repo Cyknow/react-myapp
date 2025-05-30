@@ -10,16 +10,14 @@ import Serv from './Components/ServSection/Serv'
 function App() {
 
   return (
-    <>
-      <div>
-        <Navbar/>
-        <Hero/>
-        <Serv/>
-        <Quote/>
-        <Abt/>
-        <Quest/>
-        <Foot/>
-      </div>
+    <>      
+    <Navbar/>
+    <Hero/>
+    <Serv/>
+    <Quote/>
+    <Abt/>
+    <Quest/>
+    <Foot/>
     </>
   )
 }
