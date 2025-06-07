@@ -1,6 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import './Hero.css';
 
 const Hero = () => {
+  const navigate = useNavigate();
+  const Chris = () =>{
+    // alert ("Hello Chris");
+    navigate("/about");
+  };
   return (
     <div>
       <section className="hero-section">
@@ -8,9 +14,12 @@ const Hero = () => {
     <h1>nature</h1>
     <p>Look deep into nature, and you will
       understand everything better.</p>
-    <button>Get Started</button> 
+    <button> <a href="/Register"> Get Started</a> </button> 
   </section>
+    
+    <p onClick={Chris}>About Us</p>
     </div>
+    
   )
 }
 

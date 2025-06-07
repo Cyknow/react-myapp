@@ -35,8 +35,13 @@
   padding: 15px 40px 15px 40px;
   border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.15s ease;
+  transition: color 0.15s ease;
 }
 .hero-section button:hover {
   background-color: rgb(233, 166, 41);
-}
+  }
+
+  button a {
+    text-decoration: none;
+
+  }

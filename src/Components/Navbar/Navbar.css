@@ -1,4 +1,4 @@
-.navbar-section-div {
+/* .navbar-section-div {
   background-color: transparent;
   height: 20vh;
   display: flex;
@@ -11,7 +11,13 @@
   top: 0px;
   bottom: 0px;
 }
-
+.PrimeServ{
+  cursor: pointer;
+}
+.home-icon{
+  background-color: chartreuse;
+  font-size: xx-large;
+}
 .navlinks-div {
   display: flex;
   list-style: none;
@@ -33,4 +39,6 @@
 .scroll-bar-icon {
   font-size: 40px;
   display: none;
-}
+} */
+
+@import "tailwindcss";
