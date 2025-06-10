@@ -1,3 +1,4 @@
+import { DataApi } from "../../Data/Data";
 import "./serv.css";
 
 const Serv = () => {
@@ -6,33 +7,42 @@ const Serv = () => {
       <section>
      <div className="images-display">
     <div className="our-services">
-      <p>Our Services</p>
+      <p>Our Blogs</p>
       <div className="div-divider"></div>
     </div>
 
+{/* img div starts here */}
     <div className="images-section">
+      {DataApi.map((prince:any)=>(
+        <>
       <div>
-        <img src="./images/service-1.jpg" alt="image of a man sitting down"/>
-        <p className="heading-title">Web Design</p>
+        <img src= {prince.image} alt="image of a man sitting down"/>
+        <p className="heading-title">{prince.title}</p>
         <p className="heading-description">
-          Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.
+          {prince.desc}
+        </p>
+      </div>
+      {/* <div>
+        <img src= {prince.image} alt="image of nature"/>
+        <p className="heading-title">{prince.title}</p>
+        <p className="heading-description">
+          {prince.desc}
         </p>
       </div>
       <div>
-        <img src="./images/service-2.jpg" alt="image of nature"/>
-        <p className="heading-title">Graphic Design</p>
+        <img src= {prince.image} alt="image of a black mountain"/>
+        <p className="heading-title">{prince.title}</p>
         <p className="heading-description">
-          Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.
+          {prince.desc}
         </p>
-      </div>
-      <div>
-        <img src="./images/service-3.jpg" alt="image of a black mountain"/>
-        <p className="heading-title">Content Creation</p>
-        <p className="heading-description">
-          Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.
-        </p>
-      </div>
+      </div> */}
+      </>
+      ) )}
+
     </div>
+
+    
+    {/* img div ends here */}
    </div>
     </section>
     </div>

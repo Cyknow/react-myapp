@@ -17,12 +17,12 @@ const HomePage = () => {
       <h1><a href="/Blog">See latest News</a></h1>
     <Navbar2/>
     {/* <Navbar/> */}
-    <Hero/>
+    {/* <Hero/> */}
     <Serv/>
-    <Quote/>
-    <Abt/>
-    <Quest/>
-    <Foot/>    
+    {/* <Quote/> */}
+    {/* <Abt/> */}
+    {/* <Quest/> */}
+    {/* <Foot/>     */}
     </div>
   )
 }
